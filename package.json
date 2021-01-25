@@ -1,65 +1,25 @@
 {
-  "name": "mnit-portal",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "http://surya1231.github.io/mnit-portal",
+  "name": "chat-example",
+  "version": "0.0.0",
+  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "main": "server.js",
+  "repository": "",
+  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "axios": "^0.19.2",
-    "countapi-js": "^1.0.1",
-    "emailjs-com": "^2.4.1",
-    "firebase": "^7.15.4",
-    "node-sass": "^4.14.1",
-    "popper.js": "^1.16.1",
-    "prettier": "^2.0.5",
-    "react": "^16.13.1",
-    "react-bootstrap": "^1.0.1",
-    "react-dom": "^16.13.1",
-    "react-icons": "^3.10.0",
-    "react-quill": "^1.3.5",
-    "react-redux": "^7.2.0",
-    "react-redux-firebase": "^3.6.0",
-    "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
-    "react-toastify": "^6.0.6",
-    "redux": "^4.0.5",
-    "redux-firestore": "^0.13.0",
-    "redux-thunk": "^2.3.0",
-    "resolve-url-loader": "^3.1.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "prettify": "node_modules/.bin/prettier --write src/**/*.{js,scss,css,jsx}",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "bootstrap": "^5.0.0-alpha1",
-    "bootstrap-loader": "^3.0.4",
-    "eslint-plugin-prettier": "^3.1.4",
-    "gh-pages": "^3.0.0",
-    "jquery": "^3.5.1",
-    "tether": "^1.4.7"
+    "async": "^0.2.10",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.6.1",
+    "express": "^3.2.6",
+    "express-session": "^1.15.6",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.4.17",
+    "nodemailer": "^5.1.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.1",
+    "require": "^2.4.20",
+    "socket.io": "~0.9.14"
   }
 }
